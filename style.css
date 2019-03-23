@@ -94,11 +94,17 @@ li:before {
     padding: 10px 15px;
     text-align: center;
     text-transform: uppercase;
+    color: black;
 }
 
 .btn:hover {
 background: #d4579b;
 color: white;
+}
+
+.contacts {
+    margin-left: 1230px;
+    
 }
 
 
