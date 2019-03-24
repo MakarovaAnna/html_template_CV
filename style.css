@@ -164,10 +164,10 @@ color: white;
       
 }
 
-#html, #js {
+
+#html, #js, #js2 , #js3 {
     margin-left: 100px;
 }
-
 
 @media (max-width: 1490px) {
     .welcome {
