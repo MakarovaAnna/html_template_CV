@@ -102,7 +102,7 @@ body {
 li:before {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400px;
-    color: #d4579b;
+    color: #f19aad;
     content: "♦";
     padding-right: 8px;
        }
@@ -172,16 +172,26 @@ background: #fccbce63;
    
 }
 
+
 .links img {
  
 }
 
 
 
-@media (max-width: 1215px) {
-    .container  {
-    
+@media (max-width: 1415px) {
+
+    .body {
+        width: 100%;
     }
+
+    .welcome {
+        font-size: 20px;
+        flex-direction: column;
+    }
+
+
+
 }
 
 
@@ -189,3 +199,4 @@ background: #fccbce63;
 
 
 
+    
