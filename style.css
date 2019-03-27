@@ -2,7 +2,7 @@
     font-family: 'Cradley Title';
 }
 
-html {
+main {
     margin: 0;
     padding: 0;
     background: #fccbce63 no-repeat center top;
@@ -83,17 +83,17 @@ body {
 
 .person h2, .skills h2 {
     text-align: center;
-    font-size: 30px;
+    font-size: 26px;
     text-transform: uppercase;
 }
 
 .person ul li  {
-    font-size: 28px;
+    font-size: 22px;
     list-style-type: none;
 }
 
 .skills ul li {
-    font-size: 28px;
+    font-size: 22px;
     list-style-type: none;
     ;
  
@@ -168,7 +168,7 @@ background: #fccbce63;
     flex-direction: row;
     justify-content: center;
     margin-top: 00px;
-    background: #fccbce63;
+  
    
 }
 
@@ -179,10 +179,11 @@ background: #fccbce63;
 
 
 
-@media (max-width: 1415px) {
+@media(max-width: 1415px) {
 
     .body {
-        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .welcome {
@@ -190,10 +191,14 @@ background: #fccbce63;
         flex-direction: column;
     }
 
-
-
 }
 
+
+@media(max-width: 1100px) {
+    .info .image {
+        width: 300px;
+    }
+}
 
 
 
