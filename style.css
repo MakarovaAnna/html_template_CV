@@ -179,24 +179,22 @@ background: #fccbce63;
 
 
 
-@media(max-width: 1415px) {
+@media(max-width: 1215px) {
 
-    .body {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .welcome {
-        font-size: 20px;
-        flex-direction: column;
+    .main {
+        width: 100%;
     }
 
 }
 
 
 @media(max-width: 1100px) {
-    .info .image {
-        width: 300px;
+    .info img {
+        width: 380px;
+        height: 380px;
+    }
+    #info {
+        max-width: 25%;
     }
 }
 
