@@ -1,24 +1,18 @@
 * {
     font-family: 'Cradley Title';
+    /*outline: 1px solid;*/
 }
 
-main {
+#main {
     margin: 0;
-    padding: 0;
+    max-width: 1300px;
     background: #fccbce63 no-repeat center top;
-    width: 100%;
-    display: table;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body {
     margin: 0;
-    width: 80%;
-    background: white;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-   
 }
 
 header {
@@ -27,44 +21,39 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
-.container { 
-    max-width: 1300px;
-    max-height: 220px;
-    margin-left: auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-right: auto;
-    }
+
 
 #logo {
     width: 30%;
-    }
-    
-#logo img {
-        width: 100%;
-        margin: -60px 0 0;
+}
 
-    }
-    
-.container .welcome {
+#logo img {
+    width: 100%;
+    margin: -60px 0 0;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+header .welcome {
     display: flex;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    width: 70%;    
+    width: 70%;
     text-transform: uppercase;
-   }
+}
 
 
-
-.container .welcome h3 {
+header .welcome h3 {
     font-size: 40px;
     line-height: 38px;
 }
 
-.container .welcome p {
+header .welcome p {
     font-size: 20px;
     line-height: 28px;
 }
@@ -73,7 +62,7 @@ header {
     display: flex;
     flex-direction: row;
     margin-top: 50px;
-  
+
 }
 
 .info img {
@@ -86,7 +75,7 @@ header {
     margin-left: auto;
     margin-top: auto;
     width: 700px;
-   
+
 }
 
 .person h2, .skills h2 {
@@ -95,16 +84,15 @@ header {
     text-transform: uppercase;
 }
 
-.person ul li  {
+.person ul li {
     font-size: 22px;
     list-style-type: none;
 }
 
 .skills ul li {
     font-size: 22px;
-    list-style-type: none;
-    ;
- 
+    list-style-type: none;;
+
 }
 
 li:before {
@@ -113,7 +101,7 @@ li:before {
     color: #f19aad;
     content: "♦";
     padding-right: 8px;
-       }
+}
 
 .btn {
     display: block;
@@ -129,7 +117,7 @@ li:before {
 }
 
 .btn:hover {
-background: #fccbce63;
+    background: #fccbce63;
 
 }
 
@@ -154,7 +142,7 @@ background: #fccbce63;
     text-align: center;
     justify-content: center;
     text-transform: uppercase;
-      
+
 }
 
 .links {
@@ -163,16 +151,13 @@ background: #fccbce63;
     flex-direction: row;
     justify-content: center;
     margin-top: 00px;
-  
-   
+
+
 }
 
 
+@media (max-width: 1160px) {
 
-
-
-@media(max-width: 1160px) {
-    
     header {
         display: flex;
         margin-left: auto;
@@ -185,7 +170,7 @@ background: #fccbce63;
     }
 
     .info {
-       flex-direction: column;
+        flex-direction: column;
     }
 
     .info img {
@@ -193,7 +178,7 @@ background: #fccbce63;
         margin-left: auto;
         margin-right: auto;
     }
-    }
+}
 
 
 
