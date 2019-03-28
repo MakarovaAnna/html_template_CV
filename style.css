@@ -1,6 +1,5 @@
 * {
-    font-family: 'Cradley Title';
-    /*outline: 1px solid;*/
+    font-family: 'Cinzel', serif;
 }
 
 #main {
@@ -69,7 +68,7 @@ header .welcome p {
 }
 
 .info img {
-    padding-left: 10px;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 
@@ -80,7 +79,7 @@ header .welcome p {
     flex-direction: column;
     margin-left: auto;
     margin-top: auto;
-    width: 70%;
+    width: 50%;
 
 }
 
