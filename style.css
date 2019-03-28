@@ -168,33 +168,15 @@ li:before {
     flex-direction: row;
     justify-content: center;
     margin-top: 50px;
-
-
 }
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
-.frame {
-    margin-left: auto;
+.slices { 
+  width: 850px;
+  height: 550px;
+  margin-left: auto;
   margin-right: auto;
-  width: 850px;
-  height: 550px;
-  border-radius: 2px;
-  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
-  overflow: hidden;
-  background: #333;
-  color: #fff;
-  font-family: 'Open Sans', Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.slices {
- 
-  width: 850px;
-  height: 550px;
   background: url("images/js2.jpg") center center no-repeat;
-  background-size: 850px 550px;
-  cursor: pointer;
+ 
 }
 
 .slices:hover .slice {
